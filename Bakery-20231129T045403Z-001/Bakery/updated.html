@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Bakery Shop</title>
+    <link rel="stylesheet" href="updated.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Bakery Shop</h1>
+    </header>
+    <main>
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-category">
+                    <h3>Cakes</h3>
+                    <ul>
+                        <li>Chocolate Cake</li>
+                        <li>Vanilla Cake</li>
+                        <li>Red Velvet Cake</li>
+                    </ul>
+                </div>
+                <div class="menu-category">
+                    <h3>Pastries</h3>
+                    <ul>
+                        <li>Croissant</li>
+                        <li>Eclair</li>
+                        <li>Danish Pastry</li>
+                    </ul>
+                </div>
+                <div class="menu-category">
+                    <h3>Breads</h3>
+                    <ul>
+                        <li>Sourdough</li>
+                        <li>Baguette</li>
+                        <li>Focaccia</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="special-offers">
+            <h2>Special Offers</h2>
+            <p>Check back regularly for seasonal offers and discounts!</p>
+        </section>
+        <section id="order-form">
+            <h2>Place Your Order</h2>
+            <form id="orderForm">
+                <input type="text" id="itemName" placeholder="Item Name" required>
+                <input type="number" id="quantity" placeholder="Quantity" required min="1">
+                <button type="submit">Submit Order</button>
+            </form>
+            <p id="orderConfirmation"></p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 Local Bakery Shop</p>
+    </footer>
+    <script src="updated.js"></script>
+</body>
+</html>
